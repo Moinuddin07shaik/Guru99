@@ -52,7 +52,7 @@ public class Day1 {
         	 namelist2 = data2.getText();
         	System.out.println(namelist2);
         }  	
-        if(namelist1==namelist2) {
+        if(blist1.equals(blist2)) {
         	System.out.println("Mobile sort was not done, fail");
         	
         }
